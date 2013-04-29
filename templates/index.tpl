@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Manga Watcher</title>
 
+	<link rel="icon" href="/img/favicon.gif" type="image/gif">
+
 {* including css files *}
 {$cb_styles}
 {* /including ... *}

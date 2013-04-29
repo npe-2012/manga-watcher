@@ -17,7 +17,7 @@
 			<dt>Lorem ipsum dolor sit amet</dt>
 			<dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
 		</dl>
-		<a href="#" class="btn btn-large btn-info">Начать читать</a>
+		<a href="#" class="btn btn-large btn-info">Начать чтение</a>
 	</div>
 </div>
 <div class="row">

@@ -1,8 +1,4 @@
 <ul class="unstyled nav">
-    <li class="active"><a href="#">Главная</a></li>
-    <li><a href="#">Алфавитный указатель</a></li>
-    <li><a href="#">Новости</a></li>
-    <li><a href="#">Мобильное приложение</a></li>
-    <li><a href="#">Об авторах</a></li>
-    <li><a href="#">Контакты</a></li>
+    <li{if $current == null} class="active"{/if}><a href="/">Главная</a></li>
+    <li{if $current == 'contacts'} class="active"{/if}><a href="/contacts/">Контакты</a></li>
 </ul>

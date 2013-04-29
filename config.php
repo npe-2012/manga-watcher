@@ -13,22 +13,9 @@ $template->setCompileDir(ROOT.'cache/');
 $template->setCacheDir(ROOT.'cache/');
 
 
-// Assing common_blocks tocb_{block_name}
-$common_blocks = glob(ROOT.'templates/common_blocks/*.tpl');
-array_map(AssignBlock, $common_blocks);
-
-
-
-/**
- * function assign each given template to cb_{block} variable
- */
-function AssignBlock($tpl)
-{
-	global $template;
-
-	$tpl_info = pathinfo($tpl);
-	$tpl_name = $tpl_info['filename'];
-	$template->assign('cb_'.$tpl_name, $template->fetch('common_blocks/'.$tpl_name.'.tpl'));
-}
+// Set $DB worker
+require_once ROOT.'libs/DbSimple/Generic.php';
+$DB = DbSimple_Generic::connect("mysql://umnyjcom_sergey:Hrew@23resT@localhost/umnyjcom_main");
+$DB->Query("SET NAMES UTF8");
 
 ?>
