@@ -7,10 +7,10 @@ RewriteBase /
 #RewriteCond %{HTTP_HOST} !^manga-watcher\.loc
 #RewriteRule .* http://manga-watcher.loc/$0/ [R=301,L]
 
-RewriteCond %{REQUEST_URI} !.*\/$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* $0/ [L,R=301]
+#RewriteCond %{REQUEST_URI} !.*\/$
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .* $0/ [L,R=301]
 
 RewriteCond %{REQUEST_URI} ^/cron.*$
 RewriteRule .* cron.php [QSA,L]
