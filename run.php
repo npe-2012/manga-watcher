@@ -32,7 +32,7 @@ switch($path[0])
 		}
 		else
 		{
-			$template->assign('content', '404.tpl');
+			$template->assign('content', $template->fetch('404.tpl'));
 		}
 }
 
