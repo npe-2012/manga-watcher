@@ -2,22 +2,26 @@
 <MangaList>
 	<Manga>
 		<Id>1</Id>
-		<Name>Дневники будущего (Mirai Niki)</Name>
+		<Name>Дневники будущего</Name>
+		<OriginalName>Mirai Niki</OriginalName>
 		<Chapters>10</Chapters>
 	</Manga>
 	<Manga>
 		<Id>2</Id>
-		<Name>Ван Пис (One Piece)</Name>
+		<Name>Ван Пис</Name>
+		<OriginalName>One Piece</OriginalName>
 		<Chapters>20</Chapters>
 	</Manga>
 	<Manga>
 		<Id>3</Id>
-		<Name>Наруто (Naruto)</Name>
+		<Name>Наруто</Name>
+		<OriginalName>Naruto</OriginalName>
 		<Chapters>30</Chapters>
 	</Manga>
 	<Manga>
 		<Id>4</Id>
-		<Name>Дворянство (Noblesse)</Name>
+		<Name>Дворянство</Name>
+		<OriginalName>Noblesse</OriginalName>
 		<Chapters>40</Chapters>
 	</Manga>
 </MangaList>
