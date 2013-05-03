@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MangaList>
+	<Manga>
+		<Name>Дневники будущего (Mirai Niki)</Name>
+		<Image>http://dummyimage.com/600x600/1c1d2b/7a7a7a.jpg&amp;text=Дневники+Будущего</Image>
+		<Chapters>10</Chapters>
+	</Manga>
+	<Manga>
+		<Name>Ван Пис (One Piece)</Name>
+		<Image>http://dummyimage.com/600x600/1c1d2b/7a7a7a.jpg&amp;text=Ван+Пис</Image>
+		<Chapters>20</Chapters>
+	</Manga>
+	<Manga>
+		<Name>Наруто (Naruto)</Name>
+		<Image>http://dummyimage.com/600x600/1c1d2b/7a7a7a.jpg&amp;text=Наруто</Image>
+		<Chapters>30</Chapters>
+	</Manga>
+	<Manga>
+		<Name>Дворянство (Noblesse)</Name>
+		<Image>http://dummyimage.com/600x600/1c1d2b/7a7a7a.jpg&amp;text=Дворянство</Image>
+		<Chapters>40</Chapters>
+	</Manga>
+</MangaList>
