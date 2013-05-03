@@ -17,6 +17,9 @@ RewriteRule .* cron.php [QSA,L]
 RewriteCond %{REQUEST_URI} ^/api/books$
 RewriteRule .* books.xml [L]
 
+RewriteCond %{REQUEST_URI} ^/api/book/.*$
+RewriteRule /api/book/(.*) /book/$1.xml [L]
+
 RewriteCond %{REQUEST_URI} ^/api.*$
 RewriteRule .* api.php [QSA,L]
 
