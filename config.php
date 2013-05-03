@@ -16,6 +16,22 @@ $template->setCacheDir(ROOT.'cache/');
 // Set $DB worker
 require_once ROOT.'libs/DbSimple/Generic.php';
 $DB = DbSimple_Generic::connect("mysql://umnyjcom_sergey:Hrew@23resT@localhost/umnyjcom_main");
+
+$DB->setErrorHandler('databaseErrorHandler');
+
+// Код обработчика ошибок SQL.
+function databaseErrorHandler($message, $info)
+{
+    // Если использовалась @, ничего не делать.
+    if (!error_reporting()) return;
+    // Выводим подробную информацию об ошибке.
+    echo "SQL Error: $message<br><pre>";
+    print_r($info);
+    echo "</pre>";
+    exit();
+}
+
+
 $DB->Query("SET NAMES UTF8");
 
 ?>

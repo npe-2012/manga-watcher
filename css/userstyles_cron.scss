@@ -1,0 +1,48 @@
+body {
+	background: #ececec url(../img/linedpaper.png) repeat left top fixed;
+}
+.header {
+	margin-bottom:20px;
+	margin-top:10px;
+	.logo {
+		display:block;
+		width:180px;
+	}
+	.promo {
+		text-align: center;
+		img {
+			cursor: pointer;
+		}
+	}
+	.search {
+		text-align: right;
+	}
+}
+.sidebar {
+	h5 {
+		text-align: center;
+	}
+}
+.content {
+	.tags {
+		padding-left:20px;
+		width:100%;
+		margin-bottom: 10px;
+	}
+}
+.footer {
+	border-top:1px solid #ccc;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:20px;
+	text-align: right;
+	.nav {
+		text-align: left;
+		.active {
+			a {
+				color:#333333;
+				font-weight: bold;
+			}
+		}
+	}
+}
