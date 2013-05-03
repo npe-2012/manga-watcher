@@ -15,7 +15,7 @@ $template->setCacheDir(ROOT.'cache/');
 
 // Set $DB worker
 require_once ROOT.'libs/DbSimple/Generic.php';
-$DB = DbSimple_Generic::connect("mysql://umnyjcom_sergey:Hrew@23resT@localhost/umnyjcom_main");
+$DB = DbSimple_Generic::connect("mysql://umnyjcom_sergey:Hrew23resT@localhost/umnyjcom_main");
 
 $DB->setErrorHandler('databaseErrorHandler');
 
