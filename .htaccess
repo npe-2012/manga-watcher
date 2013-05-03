@@ -18,10 +18,10 @@ RewriteCond %{REQUEST_URI} ^/api/books$
 RewriteRule .* books.xml [L]
 
 RewriteCond %{REQUEST_URI} ^/api/book/.*$
-RewriteRule /api/book/(.*) /book/$1.xml [L]
+RewriteRule api/book/(.*) book/$1.xml [L]
 
 RewriteCond %{REQUEST_URI} ^/api.*$
 RewriteRule .* api.php [QSA,L]
 
-RewriteCond %{REQUEST_FILENAME} !^.*(\.jpg|\.css|\.js|\.gif|\.png|\.swf|\.svg|\.xml)$
-RewriteRule .* run.php [QSA,L]
+#RewriteCond %{REQUEST_FILENAME} !^.*(\.jpg|\.css|\.js|\.gif|\.png|\.swf|\.svg|\.xml)$
+#RewriteRule .* run.php [QSA,L]
