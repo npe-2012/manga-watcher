@@ -19,9 +19,11 @@ foreach($files as $key => $value)
 }
 $zip->close();
 
+$filesize = filesize($filename);
+
 header("Content-Type: application/zip");
 header('Content-Disposition: attachment; filename="chapter.zip"');
-header('Content-Length: '.filesize($filename));
+header('Content-Length: '.$filesize);
 header('Transfer-Encoding: binary');
 readfile($filename);
 unlink($filename);
