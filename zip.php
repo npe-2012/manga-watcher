@@ -19,10 +19,9 @@ foreach($files as $key => $value)
 }
 $zip->close();
 
-header('Content-Description: File Transfer');
-header('Content-Length: '.filesize($filename));
-header('Content-Type: application/octet-stream');
+header("Content-Type: application/zip");
 header('Content-Disposition: attachment; filename="chapter.zip"');
+header('Content-Length: '.filesize($filename));
 header('Transfer-Encoding: binary');
 readfile($filename);
 unlink($filename);
