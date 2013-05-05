@@ -4,24 +4,14 @@
 		<Id>1</Id>
 		<Name>Дневники будущего</Name>
 		<OriginalName>Mirai Niki</OriginalName>
-		<Chapters>10</Chapters>
-	</Manga>
-	<Manga>
-		<Id>2</Id>
-		<Name>Ван Пис</Name>
-		<OriginalName>One Piece</OriginalName>
-		<Chapters>20</Chapters>
-	</Manga>
-	<Manga>
-		<Id>3</Id>
-		<Name>Наруто</Name>
-		<OriginalName>Naruto</OriginalName>
-		<Chapters>30</Chapters>
-	</Manga>
-	<Manga>
-		<Id>4</Id>
-		<Name>Дворянство</Name>
-		<OriginalName>Noblesse</OriginalName>
-		<Chapters>40</Chapters>
+		<Image>http://d.readmanga.ru/uploads/pics/00/17/024_o.png</Image>
+		<Chapters>3</Chapters>
+		<Status></Status>
+		<Description>
+			<![CDATA[
+			<p>Амано Юкитэру – предельно нерешительный, замкнутый, необщительный и пассивный школьник. Зато наблюдательный. Да, он практически не участвует в событиях, происходящих вокруг него, но он все их подмечает и записывает в свой дневник. Это, однако, не единственная его «особенность». Ещё у него есть выдуманный друг по имени Деус Экс Машина, работающий властелином времени и космоса.</p>
+			<p>Только вот на самом деле Деус оказывается ни фига не выдуманным, а очень даже настоящим богом. Причём богом медленно, но верно умирающим, и потому срочно нуждающимся в наследнике. Коим и становится Юкитэру…Ха! Как бы не так!</p>
+			]]>
+		</Description>
 	</Manga>
 </MangaList>

@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Manga>
-	<Id>1</Id>
-	<Name>Дневники будущего</Name>
-	<OriginalName>Mirai Niki</OriginalName>
-	<Image>http://dummyimage.com/600x600/4d494d/686a82.gif&amp;text=Дневники+Будущего</Image>
-	<Chapters>10</Chapters>
-	<Description>
-		<![CDATA[
-		<p>Амано Юкитэру – предельно нерешительный, замкнутый, необщительный и пассивный школьник. Зато наблюдательный. Да, он практически не участвует в событиях, происходящих вокруг него, но он все их подмечает и записывает в свой дневник. Это, однако, не единственная его «особенность». Ещё у него есть выдуманный друг по имени Деус Экс Машина, работающий властелином времени и космоса.</p>
-		<p>Только вот на самом деле Деус оказывается ни фига не выдуманным, а очень даже настоящим богом. Причём богом медленно, но верно умирающим, и потому срочно нуждающимся в наследнике. Коим и становится Юкитэру…Ха! Как бы не так!</p>
-		]]>
-	</Description>
-</Manga>
+<ChapterList>
+	<Chapter>
+		<Id>1</Id>
+		<Name>Пролог</Name>
+		<Status>d</Status>
+		<Link>http://umnyjcom.vh57.hosterby.com/book/1/1.zip</Link>
+		<Images>20</Images>
+		<Volume>1</Volume>
+	</Chapter>
+	<Chapter>
+		<Id>2</Id>
+		<Name>Глава первая</Name>
+		<Status>d</Status>
+		<Link>http://umnyjcom.vh57.hosterby.com/book/1/2.zip</Link>
+		<Images>58</Images>
+		<Volume>1</Volume>
+	</Chapter>
+	<Chapter>
+		<Id>3</Id>
+		<Name>Глава вторая</Name>
+		<Status>d</Status>
+		<Link>http://umnyjcom.vh57.hosterby.com/book/1/3.zip</Link>
+		<Images>41</Images>
+		<Volume>1</Volume>
+	</Chapter>
+</ChapterList>

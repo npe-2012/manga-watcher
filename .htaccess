@@ -14,6 +14,9 @@ RewriteRule (.*)/ $1 [L,R=301]
 RewriteCond %{REQUEST_URI} ^/cron.*$
 RewriteRule .* cron.php [QSA,L]
 
+RewriteCond %{REQUEST_URI} ^.*\.zip$
+RewriteRule (.*).zip zip.php?folder=$1 [L]
+
 RewriteCond %{REQUEST_URI} ^/api/books$
 RewriteRule .* books.xml [L]
 
