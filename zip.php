@@ -20,10 +20,10 @@ foreach($files as $key => $value)
 $zip->close();
 
 header('Content-Description: File Transfer');
+header('Content-Length: '.filesize($filename));
 header('Content-Type: application/octet-stream');
 header('Content-Disposition: attachment; filename="chapter.zip"');
-header('Content-Transfer-Encoding: binary');
-header('Content-Length: '.filesize($filename));
+header('Transfer-Encoding: binary');
 readfile($filename);
 unlink($filename);
 
