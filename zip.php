@@ -4,8 +4,8 @@ define('ROOT', dirname(__FILE__).'/');
 
 $path = $_GET['folder'];
 
-$zip = new ZipArchive();
 $filename = tempnam("/tmp", uniqid());
+$zip = new ZipArchive();
 
 if ($zip->open($filename, ZIPARCHIVE::CREATE)!==TRUE) {
     exit("Cannot open <$filename>\n");
